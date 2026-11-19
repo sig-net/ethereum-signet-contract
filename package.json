@@ -1,5 +1,5 @@
 {
-  "name": "contract-eth",
+  "name": "ethereum-signet-contract",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

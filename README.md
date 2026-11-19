@@ -20,6 +20,8 @@ To compile the contract, you can use the following command:
 npx hardhat compile
 ```
 
+Commit the updated `artifacts/contracts/ChainSignatures.sol/ChainSignatures.json` with any contract change; CI checks that it matches the source.
+
 ## Testing
 
 To unit test the contract, you can use the following command:

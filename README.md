@@ -44,7 +44,7 @@ npx hardhat node
 npx hardhat --network localhost run scripts/findAddress.js
 ```
 
-3. Make sure you have docker daemon running. Open another terminal window, go to `integration-tests` and run the following command to start the MPC cluster:
+3. Make sure you have docker daemon running. Open another terminal window, go to `integration-tests` in a checkout of [sig-net/mpc](https://github.com/sig-net/mpc) and run the following command to start the MPC cluster:
 
 ```bash
 cargo run -- setup-env --eth-contract-address <eth-contract-address-without-0x-prefix>
@@ -93,7 +93,7 @@ node scripts/populateParams.js <adminAddress> <deposit required in wei>
 npx hardhat ignition deploy ignition/modules/chainSignatures.js --parameters ignition/params.json --network sepolia
 ```
 
-5. Make sure you have docker daemon running. Go to `integration-tests` and run the following command to start the MPC cluster connected to Ethereum Sepolia Testnet:
+5. Make sure you have docker daemon running. Go to `integration-tests` in a checkout of [sig-net/mpc](https://github.com/sig-net/mpc) and run the following command to start the MPC cluster connected to Ethereum Sepolia Testnet:
 
 ```bash
 cargo run -- setup-env --eth-execution-rpc-http-url https://sepolia.infura.io/v3/<api-key> --eth-network sepolia --eth-account-sk <eth-account-sk> --eth-contract-address <eth-contract-address-without-0x-prefix>

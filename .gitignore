@@ -1,0 +1,9 @@
+node_modules/
+cache/
+# Hardhat output: only the contract artifacts are committed.
+artifacts/*
+!artifacts/contracts/
+artifacts/contracts/**/*.dbg.json
+ignition/deployments/chain-31337/
+deployments/localhost.json
+scripts/params.json

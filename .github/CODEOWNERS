@@ -1,0 +1,4 @@
+# Code owners are auto-requested for review on PRs that touch these paths.
+
+# The MPC team owns the repository.
+*    @sig-net/mpc
